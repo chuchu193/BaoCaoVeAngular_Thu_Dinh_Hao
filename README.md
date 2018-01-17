@@ -17,16 +17,24 @@ TypeScript có thể sử dụng để phát triển các ứng dụng chạy �
 **TypeScript là Javscript**: Bản chất của TypeScript là biên dịch tạo ra các đoạn mã javascript nên ban có thê chạy bất kì ở đâu miễn ở đó có hỗ trợ biên dịch Javascript. Ngoài ra bạn có thể sử dụng trộn lẫn cú pháp của Javascript vào bên trong TypeScript, điều này giúp các lập trình viên tiếp cận TypeScript dễ dàng hơn.
 ### Cách cài đặt và sử dụng
 - Cài đặt: 
+
 B1: Ta vô trang web: https://www.typescriptlang.org/
+
 B2: Máy bạn cần cài đặt nodejs và npm trước để thực hiện lệnh
+
 <img scr="https://i.imgur.com/AZhFIoj.png">
+
 B3: Kiểm tra typescript đã cài đặt thành công chưa
+
 <img scr= "https://i.imgur.com/qm3C67F.png">
+
 - Sử dụng:
 Sử dụng công cụ Visual Studio Code để code
+
 B1: Tạo file demo.tsc
 B2: Vào cmd nhập câu lệnh tsc demo.tsc sẽ tạo ra file demo.js
 B3: Cuối cùng ta nhập lệnh node demo.js sẽ biên dịch đoạn demo.js
+
 **Kết Quả**
 <img src ="https://i.imgur.com/ZUyVzqQ.png">
 ### Huơng Đối Tượng Trong TypeScript
