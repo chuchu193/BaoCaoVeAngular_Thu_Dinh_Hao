@@ -22,17 +22,19 @@ B1: Ta vô trang web: https://www.typescriptlang.org/
 
 B2: Máy bạn cần cài đặt nodejs và npm trước để thực hiện lệnh
 
-<img scr="https://i.imgur.com/AZhFIoj.png">
+<img src ="https://i.imgur.com/AZhFIoj.png">
 
 B3: Kiểm tra typescript đã cài đặt thành công chưa
 
-<img scr= "https://i.imgur.com/qm3C67F.png">
+<img src = "https://i.imgur.com/qm3C67F.png">
 
 - Sử dụng:
 Sử dụng công cụ Visual Studio Code để code
 
 B1: Tạo file demo.tsc
+
 B2: Vào cmd nhập câu lệnh tsc demo.tsc sẽ tạo ra file demo.js
+
 B3: Cuối cùng ta nhập lệnh node demo.js sẽ biên dịch đoạn demo.js
 
 **Kết Quả**
