@@ -40,5 +40,27 @@ B3: Cuối cùng ta nhập lệnh node demo.js sẽ biên dịch đoạn demo.js
 **Kết Quả**
 <img src ="https://i.imgur.com/ZUyVzqQ.png">
 ### Huơng Đối Tượng Trong TypeScript
+- Cách khai báo 1 CLASS:
+Gồm có: 
+**Properties(thuộc tính)**: có public và private
+<br>
+**FunTion(Hàm)**
+
+<img src ="https://i.imgur.com/Wo2l8bl.png">	
+		
+**Constructor()**
+
+<img src ="https://i.imgur.com/D7oREzk.png">
+
+Xét private của 1 tham số:
+
+<img src="https://i.imgur.com/SNmQqMa.png">
+
+- Tính thừa kế:
+<br>
+Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A có thuộc tính gì thì lớp B được kế thừa lại
+
+<img src="https://i.imgur.com/xnjCR2s.png">
+
 
 
