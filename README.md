@@ -39,7 +39,8 @@ HTML được tạo ra bởi mẫu này:<br>
    
   <h4> 2.First và Last: </h4>
   Cũng giống như các chức năng thậm chí và lẻ, cũng có hai biến khác có thể được sử dụng để xác định các yếu tố đầu tiên và cuối cùng của danh sách:
-  ![](https://i.imgur.com/ILtbHOP.jpg)
+ 
+   ![](https://i.imgur.com/D7CbaBL.jpg)<br>
    
    Điều này sẽ thêm một lớp CSS có tên là fist vào phần tử đầu tiên của danh sách và một lớp CSS có tên là last của phần tử cuối cùng trong danh sách:<br>
    ![](https://i.imgur.com/mGxLzMT.jpg)<br>
