@@ -1,7 +1,7 @@
 
 ﻿# BaoCaoVeAngular_Thu_Dinh_Hao
 
-<h2> 3 Hướng Đối Tượng Trong TypeScript</h2>
+<h2> Hướng Đối Tượng Trong TypeScript</h2>
 
 ### TypeScript là gì
 TypeScript là một dự án mã nguồn mở được phát triển bởi Microsoft, nó có thể được coi là một phiên bản nâng cao của Javascript bởi việc bổ sung tùy chọn kiểu tĩnh và lớp hướng đối tượng mà điều này không có ở Javascript. 
@@ -63,7 +63,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
 
 <img src="https://i.imgur.com/xnjCR2s.png">
 
-# Model and View with 2 away binding
+<h2> Model and View with 2 away binding </h2> 
   - Tow-Way binding : Là sự liên kết 2 chiều giữa model và view . Nếu người dùng thay đổi giá trị các field (thuộc tính) bên trong thẻ dữ   liệu đầu vào (input) thì các thuộc tính (property) liên quan sẽ thay đổi theo , và ngược lại các thuộc tính này cũng tác động tới làm     thay đổi view.
   - Có 2 cách làm thay đổi propertys từ các giá trị input vào :
       - Cách 1 : sử dụng ng-model
@@ -80,7 +80,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
                  ` <p>You entered: {{ myAddress }}</p> `<br>
                ` </form> `<br>
     
-# Tìm Hiểu Module, Component, Injectable, Pipe, Directive.
+<h2> Tìm Hiểu Module, Component, Injectable, Pipe, Directive. </h2>
 - Mối quan hệ giữa chúng :
   ![](https://i.imgur.com/J8Lw26O.png)
 ## 1. Module:
@@ -210,7 +210,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
                   </body>
               </html>
               
-=======
+			  
 <h1>Các directive cơ bản trong Angular:</h1>
 <h2>ngFor trong Angular:</h2>
   NgFor cung cấp các biến cục bộ, mỗi biến có một chức năng khác nhau:<br>
