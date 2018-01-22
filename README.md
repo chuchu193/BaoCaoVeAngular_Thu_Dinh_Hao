@@ -37,7 +37,7 @@ HTML được tạo ra bởi mẫu này:<br>
 
    ![](https://i.imgur.com/aFIHIMi.jpg)<br>
    
-  <h4> 2.First và Last: </h4>
+  <h4> 3.First và Last: </h4>
   Cũng giống như các chức năng thậm chí và lẻ, cũng có hai biến khác có thể được sử dụng để xác định các yếu tố đầu tiên và cuối cùng của danh sách:
  
    ![](https://i.imgur.com/D7CbaBL.jpg)<br>
@@ -55,9 +55,28 @@ HTML được tạo ra bởi mẫu này:<br>
  
   ![](https://i.imgur.com/MNxPp6f.jpg)
   
-  -Trong đoạn mã trên hai phần tử <div> đang sử dụng NgIf. Trên cơ sở điều kiện đúng và sai, các <div> tương ứng sẽ được thêm vào hoặc gỡ bỏ khỏi DOM.
+  -Trong đoạn mã trên hai phần tử đang sử dụng NgIf. Trên cơ sở điều kiện đúng và sai, các <div> tương ứng sẽ được thêm vào hoặc gỡ bỏ khỏi DOM.
   **ngif.component.ts**
  
+![](https://i.imgur.com/oO7j0Pj.jpg)
 
+Màn hình:
+
+![](https://i.imgur.com/kdW6geb.jpg)
+
+<h3>Sử dụng Ngif với else </h3>
+
+Đối với else chúng ta cần phải sử dụng phần tử <ng-template>.
+**ngif-else.component.html**
+![](https://i.imgur.com/dLAM7Ta.jpg)<br>
+
+Trong đoạn mã trên, chúng ta sử dụng hai ví dụ của chỉ thị NgIf.Khi điều kiện là đúng, phần tử máy chủ sẽ được thêm vào trong bố cục DOM và nếu điều kiện là sai thì khối mã <ng-template> sẽ chạy ở vị trí của phần tử máy chủ lưu trữ.
+**ngif-else.component.ts**
+
+![](https://i.imgur.com/LFpyeSg.jpg)<br>
+
+Màn hình:<br>
+
+![](https://i.imgur.com/trB7D4a.jpg)
 
 
