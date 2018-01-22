@@ -79,4 +79,24 @@ Màn hình:<br>
 
 ![](https://i.imgur.com/trB7D4a.jpg)
 
+ <h2> ngModel trong Angular: </h2>
 
+Angular 2 có một directive để áp dụng two-way binding đó là ngModel. Chúng ta có thể bao ngModel trong cặp dấu [()], nó sẽ thực hiện đồng bộ dữ liệu từ Component vs DOM và ngược lại.
+**app.component.html**<br>
+![](https://i.imgur.com/u8bv68j.jpg)<br>
+
+**app.component.ts**<br>
+![](https://i.imgur.com/JAtkctx.jpg)<br>
+
+Nếu không sử dụng [(ngModel)] chúng ta có thể hoàn toàn viết một cú pháp tương ứng cho ví dụ trên như sau:<br>
+
+**app.component.html**<br>
+
+![](https://i.imgur.com/qDYGjlh.jpg)<br>
+
+Khi không sử dụng directive ngModel ở cấu trúc binding bởi cặp dấu [()], chúng ta hoàn toàn có thể tách thành 2 cấu trúc binding riêng biệt là event binding và property binding:<br>
+
+**app.component.html**<br>
+![](https://i.imgur.com/aL9T2q3.jpg)<br>
+
+Như các bạn có thể thấy,  directive ngModel ở ví dụ minh họa trên bao gồm property ngModel và event ngModelChange.
