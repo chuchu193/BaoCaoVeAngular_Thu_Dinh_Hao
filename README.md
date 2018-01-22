@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿# BaoCaoVeAngular_Thu_Dinh_Hao
 
 <h2> 3 Hướng Đối Tượng Trong TypeScript</h2>
@@ -313,4 +313,4 @@ Khi không sử dụng directive ngModel ở cấu trúc binding bởi cặp d�
 ![](https://i.imgur.com/aL9T2q3.jpg)<br>
 
 Như các bạn có thể thấy,  directive ngModel ở ví dụ minh họa trên bao gồm property ngModel và event ngModelChange.
->>>>>>> anhthu
+
