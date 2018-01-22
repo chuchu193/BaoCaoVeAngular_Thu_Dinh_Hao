@@ -44,7 +44,11 @@ HTML được tạo ra bởi mẫu này:<br>
    
    Điều này sẽ thêm một lớp CSS có tên là fist vào phần tử đầu tiên của danh sách và một lớp CSS có tên là last của phần tử cuối cùng trong danh sách:<br>
    ![](https://i.imgur.com/mGxLzMT.jpg)<br>
-   
+ 
+ <h2> ngIf trong Angular: </h2>
+ -NgIf là một chỉ thị cấu trúc có thể thêm hoặc loại bỏ phần tử lưu trữ trong cách bố trí DOM(Document Object Model: mô hình các đối tượng trong tài liệu HTML) trong thời gian chạy.NgIf hoạt động trên cơ sở kết quả đúng và sai của biểu thức nhất định.Nếu điều kiện là đúng, các phần tử sẽ được bố trí thêm vào DOM nếu không chúng sẽ được gỡ bỏ.NgIf có thể được sử dụng theo những cách khác nhau.<br>
+ ![](https://i.imgur.com/FDoH3mP.jpg)
+ 
 
 
 
