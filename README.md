@@ -47,7 +47,16 @@ HTML được tạo ra bởi mẫu này:<br>
  
  <h2> ngIf trong Angular: </h2>
  -NgIf là một chỉ thị cấu trúc có thể thêm hoặc loại bỏ phần tử lưu trữ trong cách bố trí DOM(Document Object Model: mô hình các đối tượng trong tài liệu HTML) trong thời gian chạy.NgIf hoạt động trên cơ sở kết quả đúng và sai của biểu thức nhất định.Nếu điều kiện là đúng, các phần tử sẽ được bố trí thêm vào DOM nếu không chúng sẽ được gỡ bỏ.NgIf có thể được sử dụng theo những cách khác nhau.<br>
- ![](https://i.imgur.com/FDoH3mP.jpg)
+ 
+ 
+ ![](https://i.imgur.com/oOgSYMi.jpg)
+ 
+ Ví dụ về chỉ thị NgIf **ngif.component.html**:
+ 
+  ![](https://i.imgur.com/MNxPp6f.jpg)
+  
+  -Trong đoạn mã trên hai phần tử <div> đang sử dụng NgIf. Trên cơ sở điều kiện đúng và sai, các <div> tương ứng sẽ được thêm vào hoặc gỡ bỏ khỏi DOM.
+  **ngif.component.ts**
  
 
 
