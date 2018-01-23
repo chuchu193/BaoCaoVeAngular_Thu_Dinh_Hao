@@ -1,7 +1,7 @@
 
-﻿# BaoCaoVeAngular_Thu_Dinh_Hao
+﻿<h1> BaoCaoVeAngular_Thu_Dinh_Hao </h1>
 
-<h2> Hướng Đối Tượng Trong TypeScript</h2>
+<h2> 1. Hướng Đối Tượng Trong TypeScript</h2>
 
 ### TypeScript là gì
 TypeScript là một dự án mã nguồn mở được phát triển bởi Microsoft, nó có thể được coi là một phiên bản nâng cao của Javascript bởi việc bổ sung tùy chọn kiểu tĩnh và lớp hướng đối tượng mà điều này không có ở Javascript. 
@@ -63,7 +63,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
 
 <img src="https://i.imgur.com/xnjCR2s.png">
 
-<h2> Model and View with 2 away binding </h2> 
+<h2> 2. Model and View with 2 away binding </h2> 
   - Tow-Way binding : Là sự liên kết 2 chiều giữa model và view . Nếu người dùng thay đổi giá trị các field (thuộc tính) bên trong thẻ dữ   liệu đầu vào (input) thì các thuộc tính (property) liên quan sẽ thay đổi theo , và ngược lại các thuộc tính này cũng tác động tới làm     thay đổi view.
   - Có 2 cách làm thay đổi propertys từ các giá trị input vào :
       - Cách 1 : sử dụng ng-model
@@ -80,10 +80,12 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
                  ` <p>You entered: {{ myAddress }}</p> `<br>
                ` </form> `<br>
     
-<h2> Tìm Hiểu Module, Component, Injectable, Pipe, Directive. </h2>
+<h2> 3. Tìm Hiểu Module, Component, Injectable, Pipe, Directive. </h2>
 - Mối quan hệ giữa chúng :
-  ![](https://i.imgur.com/J8Lw26O.png)
-## 1. Module:
+
+![](https://i.imgur.com/J8Lw26O.png)
+
+## 3.1. Module:
    - Là vùng chứa cho các phần khác nhau của ứng dụng của bạn như : controllers, services, filters, directives,.... Có chức năng xử lý 1        phần gì đó trong chương trình của bạn.
       + ví dụ :
             `<div ng-app="myApp">` <br>
@@ -106,7 +108,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
       + khi tạo module thì mỗi module là một tính năng.
       + Nếu một component có thể tái sử dụng thì nên tạo 1 module cho nó để dễ dàng sử dụng lại.(đặc biệt là các drectives và filters)
       
-## 2. Component:
+## 3.2. Component:
     - Điều chỉnh 1 thành phần của màn hình :(view)
     - Đặc điểm :
         - Component có thể chứa nhiều thẻ HTML.
@@ -131,7 +133,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
    - ==> Ưu điểm sử dụng component : 
         - Dễ quản lý code theo quy luật đặt tên các component cha con chuẩn.
         - Tái sử dụng code dễ dàng.
- ## 3. Injectable:
+ ## 3.3. Injectable:
     - Injectable: Là những đối tượng được angular tạo ra từ khai báo của người dùng, do angular quản lý và có thể truyền vào trong các         class khác hoặc các đối tượng khác.
     - Injected : là đối tượng có chứa một số chỗ đánh dấu (thường là tham số của hàm khởi tạo) để AngularJS có thể truyền các đối tượng       có thể truyền được vào bên trong nó.<br>
     - Inject: để chỉ hành động lấy giá trị hoặc tham chiếu của một đối tượng (giả sử là A), gán cho thuộc tính của một đối tượng khác          (đối tượng B) theo một cách nào đó.<br>
@@ -157,7 +159,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
                 }
               `}`<br>
    
-##  4. Pipe
+##  3.4. Pipe
     - Là cách để ta thực hiện việc chuyển hóa dữ liệu ( transformation ), để dễ dàng hiển thị ra dưới định dạng như ta mong muốn.
     - Ví dụ :
             import { Component } from '@angular/core';
@@ -174,7 +176,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
        
        + Bằng cách dùng pipe date, build-in có sẵn trong Angular 2, ta có thể chuyển string hiển thị ngày tháng về dạng dễ đọc hơn
          (ví dụ : template: `<p>The hero's birthday is {{ birthday | date }}</p>` . Khi đó output: April 15, 1988 ) --> thuận tiện cho             view. 
-##  5. Directive
+##  3.5. Directive
     - Directives là một thành phần mở rộng HTML, hay nói cách khác là các thuộc tính (properties) của các thẻ HTML mà Angular nó định         nghĩa thêm, vì nó của riêng của Angular nên phải tuân thủ theo nguyên tắc của nó là chữ bắt đầu luôn luôn là ký tự ng (ví dụ:ng-         prefix), trong đó tiền tố prefix là tên của derective mà chúng ta sử dụng. 
     
     - Một vài Drectives nổi bật có sẵn do angular cung cấp :
@@ -211,7 +213,7 @@ Class A và Class B: Lớp B kế thừa lớp A có nghĩa là trong lớp A c�
               </html>
               
 			  
-<h1>Các directive cơ bản trong Angular:</h1>
+<h1> 4. Các directive cơ bản trong Angular:</h1>
 <h2>ngFor trong Angular:</h2>
   NgFor cung cấp các biến cục bộ, mỗi biến có một chức năng khác nhau:<br>
   - index xác định chỉ số hiện tại của vòng lặp tương ứng.<br>
